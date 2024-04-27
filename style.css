@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  margin: 0; 
+ 
+  
+}
+html{
+  background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
+}
+.links
+{
+  background: radial-gradient(circle at 1.2% 5.3%, rgb(255, 85, 166) 0%, rgb(255, 154, 98) 100.2%);
+  padding: 5px;
+}
+a{
+  color: azure;
+  
+  font-weight: bold;
+  padding: 0px 10px;
+  white-space: nowrap;
+  text-decoration: none;
+  margin-left: 1000px;
+}
+.intro
+{
+  font-size: 24px;
+  background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
+
+  color: #f270b5;
+  
+  margin-top: 130px;
+  margin-left: 650px;
+  margin-right: 100px;
+}
+.VJ
+{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.me {
+  width: 150px;
+  height: 155px;
+  position: absolute;
+  
+  bottom:0.8px ;
+  margin-left: 20.6px;
+ 
+ 
+}
+
+.image {
+  position: relative; 
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border-color: hotpink;
+  border: 2px solid hotpink;
+  margin-left: 150px;
+  border-style: solid; 
+  box-shadow: 2px 2px 4px hotpink;
+  bottom: 140px;
+
+}
+
