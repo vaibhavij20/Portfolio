@@ -2,67 +2,64 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-  margin: 0; 
  
-  
 }
 html{
-  background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
+  background: #F1E5D1;
 }
-.links
-{
-  background: radial-gradient(circle at 1.2% 5.3%, rgb(255, 85, 166) 0%, rgb(255, 154, 98) 100.2%);
-  padding: 5px;
+.links{
+  background: #DBB5B5;
+  padding: 10px;
+  text-align: right;
 }
-a{
-  color: azure;
-  
+.links a{
+  color: #987070;
   font-weight: bold;
-  padding: 0px 10px;
-  white-space: nowrap;
+  margin: 0 10px;
   text-decoration: none;
-  margin-left: 1000px;
+  transition: color 0.3s;
 }
+.links a:hover {
+  color: #764C4C;
+}
+
 .intro
 {
-  font-size: 24px;
-  background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
-
-  color: #f270b5;
-  
-  margin-top: 130px;
-  margin-left: 650px;
-  margin-right: 100px;
+  max-width: 800px;
+  margin: 130px auto 0 auto;
+  padding: 0 20px;
+  color: #987070;
+   text-align: center;
 }
 .VJ
 {
   font-size: 50px;
   font-weight: bold;
+  margin-bottom: 20px;
+}
+.intro p {
+  margin-top: 50px;
+  font-size: 15px;
+  line-height: 1.6;
+   margin-bottom: 20px;
 }
 
 .me {
   width: 150px;
   height: 155px;
   position: absolute;
-  
-  bottom:0.8px ;
-  margin-left: 20.6px;
- 
- 
+  bottom: 10px;
+  left: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.box{
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: none;
 }
 
-.image {
-  position: relative; 
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
-  border-color: hotpink;
-  border: 2px solid hotpink;
-  margin-left: 150px;
-  border-style: solid; 
-  box-shadow: 2px 2px 4px hotpink;
-  bottom: 140px;
 
-}
+
+
 
